@@ -5,7 +5,7 @@
 
 ![Status](https://img.shields.io/badge/status-production-success)
 ![Type](https://img.shields.io/badge/code-proprietary-lightgrey)
-![Stack](https://img.shields.io/badge/stack-ASP.NET%20Core%20%7C%20PHP%20%7C%20MariaDB-blueviolet)
+![Stack](https://img.shields.io/badge/stack-ASP.NET%20Core%20%7C%20Blazor%20%7C%20PHP%20%7C%20MariaDB-blueviolet)
 
 ---
 
@@ -19,18 +19,25 @@ Developed and maintained at **[Concepment](https://www.concepment.com)** under t
 
 ## My role
 
-**Backend contributor** — modernization work, bug fixes, feature delivery across the containerized service stack.
+**Full-Stack Developer** — frontend and backend contributions across the modern .NET stack and the legacy PHP web app.
 
-I contribute to the Geletec backend services alongside my primary role on the Daribati mobile application.
+I work on both sides of the platform: building and maintaining the user-facing web interfaces as well as the backend services, databases, and container orchestration that power them.
 
 ---
 
 ## Tech stack
 
+### Frontend
+- **Blazor (ASP.NET Core 8)** — modern web UI (`gt-blazor`)
+- **Razor views / HTML / CSS / JavaScript** — admin interfaces (`gt-admin`)
+- **Zend Framework 1 views (PHP 5.6)** — legacy web app UI (`genius-tracker-web`)
+- Responsive layouts, form handling, data tables, dashboards
+
 ### Backend
 - **ASP.NET Core 8** — modern services (`gt-admin`, `gt-blazor`, `gt-main-server`)
-- **PHP 5.6 / Zend Framework 1** — legacy web app (`genius-tracker-web`)
-- **C#** — .NET services, Blazor UI
+- **C#** — .NET services and controllers
+- **PHP 5.6 / Zend Framework 1** — legacy web application
+- REST APIs, authentication, business logic
 
 ### Data layer
 - **MariaDB 10.4**
@@ -47,10 +54,11 @@ I contribute to the Geletec backend services alongside my primary role on the Da
 
 ## What I contribute
 
-- Backend feature development across .NET services and the legacy PHP web app.
-- Schema changes with migration tracking in `migrations/`.
-- Container orchestration via Docker Compose on the dev server.
-- Code review and PR workflow on the `develop` branch (no direct pushes to `master` — CI must pass, merges to `master` trigger auto-deploy).
+- **Frontend development** — Blazor components, Razor views, admin dashboards, forms, data tables, and UI maintenance across the modern .NET and legacy PHP interfaces.
+- **Backend development** — feature implementation and bug fixes across .NET services (`gt-admin`, `gt-blazor`, `gt-main-server`) and the legacy PHP web app.
+- **Database work** — schema changes with migration tracking in `migrations/`, cross-tenant data handling (master DB + customer-scoped slave DBs).
+- **Container orchestration** — Docker Compose configurations, service management, and dev server deployment via `docker-compose.dev.yml`.
+- **Code review** and PR workflow on the `develop` branch (no direct pushes to `master` — CI must pass, merges to `master` trigger auto-deploy).
 
 ---
 
